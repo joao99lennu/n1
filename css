@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 6%;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nome1{
+    margin: 25px;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: blueviolet
+}
+
+p{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 20px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: initial;
+    flex-direction: column;
+}
+
+input{
+     width: auto;
+     height: auto;
+}
+
+.Nome{
+    border-color:blueviolet
+}
+
+.E-mail{
+    border-color: blueviolet
+}
+
+.Enviar{
+    border-color: blueviolet;
+    cursor: pointer;
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+    font-family: sans-serif
+}
+
+.Nome:hover{
+    background-color: rgb(240, 240, 240)
+}
+
+.E-mail:hover{
+    background-color: rgb(240, 240, 240)
+}
+
+.Enviar:hover{
+    background-color: rgb(111, 7, 207)
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+    
+
+
